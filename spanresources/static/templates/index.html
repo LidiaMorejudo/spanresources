@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% set active_page = "home" %}
+{% block content %}
+<!-- Hero Section -->
+  <section class="px-4 py-5 text-center index-hero bg-image">
+    <div class="container">
+      <h1 class="display-5 fw-bold mb-3" data-text="THIS IS A TEST">
+        Welcome to <span class="focus-text">Spanish Resources</span>
+      </h1>
+      <p>
+        An area for Spanish learning enthousiast to read about
+        <span class="focus-text">Spanish resources available online</span>
+      </p>
+      <div class="col-lg-6 mx-auto">
+        <a class="btn btn-primary btn-lg" href="#about"
+          >Learn More</a
+        >
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <h2 class="sub-title">ABOUT THIS SITE AND THE RESOURCES</h2>
+        <p>
+          A site for parents, students and teachers to find <span class="focus-text">great Spanish resources</span>, read about them,
+          comment and share their reviews with others.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section class="skills">
+    <div class="container">
+      <h2 class="sub-title">RESOURCES</h2>
+    </div>
+    <ul>
+      <li>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p>BOOKS</p>
+            </div>
+            <div class="col-6">
+              <p class="small">
+                Children <span class="focus-text">/</span> young readers
+                <span class="focus-text">/</span> students
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p>MAGAZINES</p>
+            </div>
+            <div class="col-6">
+              <p class="small">LEARNING MAGAZINES <span class="focus-text">/</span> CURRENT MAGAZINES</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p>Movies</p>
+            </div>
+            <div class="col-6">
+              <p class="small">
+                Easy to understand <span class="focus-text">/</span> A bit more challenging
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <p>SERIES</p>
+            </div>
+            <div class="col-6">
+              <p class="small">
+                Different age bands <span class="focus-text">/</span> Relevant
+              </p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <!-- Blog Section -->
+  <section class="home-blog">
+    <div class="container">
+      <div class="row">
+        <h2 class="sub-title">LATEST ENTRIES</h2>
+      </div>
+      <div class="row">
+        <!-- Check if there are posts to show -->
+        {% if posts|length > 0 %}
+          <!-- Loop through the posts to format and display them -->
+          {% for post in posts %}
+            <div class="col-md-4 mt-3 text-center">
+              <div class="card">
+                <div class="card-body">
+                  <h3 class="card-title">{{ post.title }}</h3>
+                  {{ post.preview | safe | truncate(50, true, '...') }}
+                  <div class="card-footer">
+                    <a
+                      href="{{ url_for('blog_post', slug=post.slug) }}"
+                      class="btn btn-primary"
+                      >Read More</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        <!-- If there are no posts to show -->
+        {% else %}
+          <div class="col">
+            <p>No posts to show</p>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section -->
+  <section class="experience bg-image">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="sub-title">EXPERIENCE</h2>
+          <p>
+            Years of experience
+            <span class="focus-text">
+              designing full fledged web applications
+            </span>
+            in a variety of technologies including JavaScript, Python, React,
+            Next.JS, Django
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
