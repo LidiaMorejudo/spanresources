@@ -27,6 +27,12 @@ The choice to make this project was influenced by my desire to develop a resourc
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
 
+# UX Development
+
+## Strategy
+
+### Project Goals
+
 
 # Credits
 
