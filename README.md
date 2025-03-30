@@ -33,6 +33,20 @@ The choice to make this project was influenced by my desire to develop a resourc
 
 ### Project Goals
 
+- Develop a full stack website
+- Website needs to include full CRUD functionality
+- Guests will be able to view and navigate public sections of the website
+- Guests will be able to send a message to the admins using the form on the contact page
+- Registered users will be able to add comments to articles
+- Admins will be able to create, edit and delete blog posts
+- Admins will be able to read and delete messages sent by the contact form
+- Present information in an easy to read manner
+- Implement responsive design methodologies
+- Provide the option for users to create an account and login/logout
+- Provide registered Admin users CRUD functionality in appropriate sections of the website
+- Implement defensive programming to prevent accidental deletion of data
+- Handle errors to aid the users in understanding the cause of the issue and getting them back on track
+
 
 # Credits
 
