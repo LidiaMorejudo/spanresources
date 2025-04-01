@@ -21,7 +21,12 @@ The choice to make this project was influenced by my desire to develop a resourc
 <summary>Table of Contents </summary>
 
 - [Project Overview](#project-overview)
-
+- [UX Development](#ux-development)
+  - [Strategy](#strategy)
+    - [Project Goals](#project-goals)
+    - [User Demographic](#user-demographic)
+    - [User Stories](#user-stories)
+    - [Scope](#scope)
 - [Credits](#credits)
   - [Content](#content)
   - [Media](#media)
