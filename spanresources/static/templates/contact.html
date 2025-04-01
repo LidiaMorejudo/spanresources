@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% set active_page = "contact" %}
+{% block content %}
+  <section class="px-4 py-5 text-center small-hero bg-image">
+    <div class="row">
+      <h1 class="display-5 fw-bold mb-3">
+        Contact <span class="focus-text">Me!</span>
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="mb-3">Get in touch!</p>
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <!-- Contact form with email autofilled if user session is active -->
+    <form method="POST" action="{{ url_for('contact') }}">
+      <fieldset>
+        <legend class="sub-title">Contact Form</legend>
+
+        {{ form.hidden_tag() }}
+
+        {{ form.name.label }}
+        {{ form.name(class="form-control mt-3 mb-3") }}
+
+        {{ form.email.label }}
+        {{ form.email(class="form-control mt-3 mb-3") }}
+
+        {{ form.title.label }}
+        {{ form.title(class="form-control mt-3 mb-3") }}
+
+        {{ form.message.label }}
+        {{ form.message(class="form-control mt-3 mb-3") }}
+
+        {{ form.submit(class="btn btn-primary mt-3") }}
+
+      </fieldset>
+    </form>
+  </div>
+
+{% endblock %}
