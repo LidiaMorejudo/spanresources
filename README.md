@@ -47,6 +47,11 @@ The choice to make this project was influenced by my desire to develop a resourc
 - Implement defensive programming to prevent accidental deletion of data
 - Handle errors to aid the users in understanding the cause of the issue and getting them back on track
 
+### User Demographic
+
+- Students of Spanish as a foreign language
+- Parents of bilingual children or children learning Spanish
+- Teachers of Spanish as a foreign language
 
 # Credits
 
