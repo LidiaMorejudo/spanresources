@@ -98,20 +98,20 @@ This is the table that shows the features:
 
 | #   | Feature                                | Importance | Viability |
 | --- | -------------------------------------- | ---------- | --------- |
-| 1   | View, Create, Edit & Delete Blog Posts | 5          | 5         |
-| 2   | Registration Functionality             | 5          | 5         |
-| 3   | Login/Logout Functionality             | 5          | 5         |
-| 4   | Contact Form                           | 5          | 5         |
-| 5   | Read/Delete Contact Form Submissions   | 5          | 5         |
-| 6   | Blog Commenting Functionality          | 2          | 5         |
-| 7   | Display Suggested Articles             | 1          | 2         |
-| 8   | Share Blog Posts on Social Media       | 2          | 4         |
-| 9   | Log User Activity                      | 2          | 2         |
-| 10  | User Profile Page Functionality        | 2          | 5         |
-| 11  | Search for Blog Posts                  | 1          | 4         |
-| 12  | User Action Validation                 | 5          | 5         |
-| 13  | Manage my profile                      | 1          | 4         |
-| 14  | Comment on Articles                    | 4          | 4         |
+| 1   | View, Create, Edit & Delete Blog Posts |     5      |     5     |
+| 2   | Registration Functionality             |     5      |     5     |
+| 3   | Login/Logout Functionality             |     5      |     5     |
+| 4   | Contact Form                           |     5      |     5     |
+| 5   | Read/Delete Contact Form Submissions   |     5      |     5     |
+| 6   | Blog Commenting Functionality          |     2      |     5     |
+| 7   | Display Suggested Articles             |     1      |     2     |
+| 8   | Share Blog Posts on Social Media       |     2      |     4     |
+| 9   | Log User Activity                      |     2      |     2     |
+| 10  | User Profile Page Functionality        |     2      |     5     |
+| 11  | Search for Blog Posts                  |     1      |     4     |
+| 12  | User Action Validation                 |     5      |     5     |
+| 13  | Manage my profile                      |     1      |     4     |
+| 14  | Comment on Articles                    |     4      |     4     |
 
 For this project, I'm embracing the concept of a Minimally Viable Product (MVP) by focusing on the essential core functionality needed to meet the minimum required specifications. Rather than overwhelming the initial development sprint with too many features, I’ll strategically implement only the most crucial ones first.
 
