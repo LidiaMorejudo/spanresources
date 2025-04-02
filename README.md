@@ -122,9 +122,9 @@ To ensure a solid foundation, I will prioritize features 1, 2, 3, 4, 5, and 12 i
 
 ## Colour Scheme
 
-![Colour Palette]()
+![Colour Palette](documentation/img/colourscheme.jpg)
 
-
+The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-palette-generator)
 
 # Credits
 
