@@ -97,7 +97,7 @@ This Viability Analysis evaluates the project’s scope by assessing the feature
 This is the table that shows the features:
 
 | #   | Feature                                | Importance | Viability |
-| --- | -------------------------------------- | ---------- | --------- |
+| --- | -------------------------------------- | :-------: | :-------: |
 | 1   | View, Create, Edit & Delete Blog Posts |     5      |     5     |
 | 2   | Registration Functionality             |     5      |     5     |
 | 3   | Login/Logout Functionality             |     5      |     5     |
