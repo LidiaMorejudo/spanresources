@@ -31,6 +31,9 @@ The choice to make this project was influenced by my desire to develop a resourc
   - [Content](#content)
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
+- [Skeleton](#skeleton)
+  - [Wireframes](#wireframes)
+  - [Colour Schemes](#colour-scheme)
 
 # UX Development
 
