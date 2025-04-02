@@ -120,6 +120,10 @@ For this project, I'm embracing the concept of a Minimally Viable Product (MVP) 
 
 To ensure a solid foundation, I will prioritize features 1, 2, 3, 4, 5, and 12 in the first sprint. This approach allows for a streamlined, efficient development process while ensuring that the application delivers its key functionalities right from the start.
 
+## Colour Scheme
+
+![Colour Palette]()
+
 
 # Credits
 
