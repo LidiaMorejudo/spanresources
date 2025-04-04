@@ -55,7 +55,7 @@ The choice to make this project was influenced by my desire to develop a resourc
   - [Content](#content)
   - [Media](#media)
   - [Acknowledgements](#acknowledgements)
-
+</details>
 
 # UX Development
 
