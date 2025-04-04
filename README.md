@@ -18,6 +18,7 @@ The choice to make this project was influenced by my desire to develop a resourc
 
 # README Contents
 
+<details>
 <summary>Table of Contents </summary>
 
 - [Project Overview](#project-overview)
