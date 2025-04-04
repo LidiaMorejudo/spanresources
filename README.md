@@ -120,11 +120,59 @@ For this project, I'm embracing the concept of a Minimally Viable Product (MVP) 
 
 To ensure a solid foundation, I will prioritize features 1, 2, 3, 4, 5, and 12 in the first sprint. This approach allows for a streamlined, efficient development process while ensuring that the application delivers its key functionalities right from the start.
 
+#### Functionality Requirements
+
+# Structure
+
+## Topology Diagrams
+
+## Database Schema & Structure
+
+# Skeleton
+
+## Wireframes
+
 ## Colour Scheme
 
 ![Colour Palette](documentation/img/colourscheme.jpg)
 
 The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-palette-generator)
+
+## Typography
+
+## Imagery
+
+# Features
+
+## Multipage Elements
+
+## CRUD Table
+
+## Defensive Programming
+
+## Error Handling
+
+# Technologies Used
+
+# Future Implementation
+
+# Testing
+
+## Bugs, Issues and Solutions
+
+# Deployment and Local Development
+
+## Deployment to Heroku
+
+## Cloning the Repository
+
+## Forking the Repository
+
+## Creating a Virtual environment
+
+## Create and migrate Database
+
+
 
 # Credits
 
