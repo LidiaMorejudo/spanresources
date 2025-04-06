@@ -1,4 +1,72 @@
 {% extends "base.html" %}
 {% block content %}
-
+  <section class="px-4 py-5 text-center small-hero bg-image">
+    <div class="row">
+      <h1 class="display-5 fw-bold mb-3">
+        Blog: <span class="focus-text">{{ post.title }}</span>
+      </h1>
+    </div>
+  </section>
+  <section class="blog-posts">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-3 ck-content">{{ post.content|safe }}</div>
+      </div>
+    </div>
+  </section>
+  <section class="blog-comments">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="sub-title mt-3 mb-3">Comments</h2>
+          <hr>
+          <ul class="comments-list">
+            {% for comment in comments %}
+              <li class="comment mt-3">
+                <p class="focus-text mt-1 mb-3">
+                  <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2 9a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z" clip-rule="evenodd"/>
+                  </svg> {{ comment.username }} - <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4a1 1 0 1 0-2 0v4a1 1 0 0 0 .293.707l3 3a1 1 0 0 0 1.414-1.414L13 11.586V8Z" clip-rule="evenodd"/>
+                  </svg> {{ comment.created.strftime('%Y-%m-%d') }}
+                </p>
+                <p> <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7.556 8.5h8m-8 3.5H12m7.111-7H4.89a.896.896 0 0 0-.629.256.868.868 0 0 0-.26.619v9.25c0 .232.094.455.26.619A.896.896 0 0 0 4.89 16H9l3 4 3-4h4.111a.896.896 0 0 0 .629-.256.868.868 0 0 0 .26-.619v-9.25a.868.868 0 0 0-.26-.619.896.896 0 0 0-.63-.256Z"/>
+                </svg> {{ comment.content }}</p>
+              </li>
+              <li>
+                <hr>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Only show if user is logged in -->
+   {% if user_id %}
+  <section class="comment-form container mt-5">
+    <form action="{{url_for('blog_post', slug=post.slug)}}" method="POST">
+      <fieldset>
+        <legend><h2 class="sub-title">Add Comment</h2></legend>
+        {{submitted_comment}}
+        <label for="comment" class="form-label mt-3">Comment</label>
+        <textarea
+          class="form-control mb-3"
+          id="comment"
+          name="comment"
+          placeholder="Enter your comment"
+          minlength="5"
+          maxlength="200"
+          required>{% if submitted_comment%}{{submitted_comment}}{% endif %}</textarea>
+        <button type="submit" class="btn btn-primary mt-3">Submit Comment</button>
+      </fieldset>
+    </section>
+    {% else %}
+    <section class="container mt-5">
+      <p class="comment-form-cta">Please Login to add a comment.</p>
+      <a class="btn btn-primary mt-3" href="{{ url_for('login') }}">login</a>
+    </section>
+    {% endif %}
+  </form>
 {% endblock %}

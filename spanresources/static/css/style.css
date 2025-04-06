@@ -57,20 +57,20 @@ footer {
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-bottom: 25px solid #eb5939;
+    border-bottom: 25px solid #b021ba;
     transform: rotate(45deg);
     transition: all 0.3s ease-out;
   }
   
   ul.footer-socials li a {
-    color: #b7ab98;
+    color: #ba2177;
     font-size: 1.5rem;
     text-decoration: none;
     font-size: 2.5rem;
   }
   
   ul.footer-socials li:hover a {
-    color: #eb5939;
+    color: #b021ba;
   }
   
   ul.footer-links {
@@ -91,7 +91,7 @@ footer {
   }
   
   ul.footer-links li a {
-    color: #b7ab98;
+    color: #ba2177;
     opacity: 0.8;
     font-size: 0.875rem;
     font-weight: 400;
@@ -100,7 +100,7 @@ footer {
   }
   
   ul.footer-links li a:hover {
-    color: #eb5939;
+    color: #b021ba;
     opacity: 1;
   }
   
