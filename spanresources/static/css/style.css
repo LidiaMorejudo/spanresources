@@ -27,3 +27,81 @@ body {
   }
   
   /* End of Navbar Styles */
+
+  /* Footer Styles */
+
+footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  ul.footer-socials {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    columns: 2;
+  }
+  
+  ul.footer-socials li {
+    padding-left: 45px;
+    position: relative;
+    margin-top: 15px;
+  }
+  
+  ul.footer-socials li:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #eb5939;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-out;
+  }
+  
+  ul.footer-socials li a {
+    color: #b7ab98;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+  }
+  
+  ul.footer-socials li:hover a {
+    color: #eb5939;
+  }
+  
+  ul.footer-links {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  ul.footer-links li {
+    margin-top: 1rem;
+  }
+  
+  ul.footer-links li h3 {
+    font-size: 1rem;
+    line-height: 130%;
+    letter-spacing: 0;
+    font-weight: 700;
+  }
+  
+  ul.footer-links li a {
+    color: #b7ab98;
+    opacity: 0.8;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+  }
+  
+  ul.footer-links li a:hover {
+    color: #eb5939;
+    opacity: 1;
+  }
+  
+  /* End of Footer Styles */
