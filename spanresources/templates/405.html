@@ -1,4 +1,13 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %} 
+
+{# 
+    405 Method Not Allowed:
+    This error means the server knows the request method, but it is not supported for the requested resource.
+    For example, trying to POST to a URL that only supports GET.
+    Common causes: wrong HTTP method used (GET, POST, PUT, DELETE, etc.).
+  #}
+
+{% block content %}
 <section>
   <div class="container mt-5 text-center">
     <div class="row">
