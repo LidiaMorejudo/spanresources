@@ -1,6 +1,15 @@
 {% extends "base.html" %} 
 {% set active_page = "admin" %}
 {% block content %}
+
+{# 
+    CKEditor Summary:
+    CKEditor is a rich text editor that replaces plain textareas with a WYSIWYG (What You See Is What You Get) editor.
+    It lets users format text (bold, italic, headings, links, etc.) directly in the browser.
+    In Flask, ckeditor.load() injects the necessary JavaScript and CSS to make the editor work.
+    Used mainly for blog posts, comments, or any content that needs rich formatting.
+    #}
+
 {{ ckeditor.load() }}
 <section>
 
