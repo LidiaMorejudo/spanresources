@@ -54,12 +54,31 @@
 </section>
 
 <section>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12">
+          
+          <form method="POST" action="{{ url_for('admin') }}">
+            <fieldset>
+              <legend><h2 class="sub-title">Add a new blog post</h2></legend>
+  
+              {{ form.hidden_tag() }}
+  
+              {{ form.title.label }}
+              {{ form.title(class="form-control mt-3 mb-3") }}
+  
+              {{ form.preview.label }}
+              {{ form.preview(class="form-control mt-3 mb-3") }}
+  
+              {{ form.content.label }}
+              {{ form.content(class="form-control mt-3 mb-3") }}
+  
+              {{ form.submit(class="btn btn-primary mt-3") }}
+  
+            </fieldset>
+        </div>
+      </div>
+    </div>
+  </section>
 
-</section>
-<section>
-
-</section>
-<section>
-
-</section>
 {% endblock %}
