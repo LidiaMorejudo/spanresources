@@ -1,5 +1,37 @@
-{% extends "base.html" %} 
-
+{% extends "base.html" %}
 {% block content %}
+
+<section class="px-4 py-5 text-center small-hero bg-image">
+  <div class="row">
+    <h1 class="display-5 fw-bold mb-3">
+      Edit <span class="focus-text">Profile</span>
+    </h1>
+  </div>
+</section>
+<section class="edit-profile container">
+  <div class="row">
+    <div class="col-12">
+      <form action="{{ url_for('edit_profile') }}" method="POST">
+        <fieldset>
+          <legend><h2 class="sub-title">Edit Profile</h2></legend>
+          
+          {{ form.hidden_tag() }}
+
+          {{ form.first_name.label }}
+          {{ form.first_name(class="form-control mt-3 mb-3", value=user.first_name) }}
+
+          {{ form.last_name.label }}
+          {{ form.last_name(class="form-control mt-3 mb-3", value=user.last_name) }}
+
+          {{ form.email.label }}
+          {{ form.email(class="form-control mt-3 mb-3", value=user.email) }}
+
+          {{ form.submit(class="btn btn-primary mt-3") }}
+
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</section>
 
 {% endblock %}
