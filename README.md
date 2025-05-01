@@ -170,6 +170,21 @@ The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-p
 
 ## CRUD Table
 
+Below is a table of CRUD functionality for each relevant page:
+
+| Page            | Create            | Read                                      | Update                          | Delete            |
+| --------------- | ----------------- | ----------------------------------------- | ------------------------------- | ----------------- |
+| Home            |                   | Fetch 3 latest blog posts                 |                                 |                   |
+| Blog            |                   | Fetch paginated blog posts                |                                 |                   |
+| Contact         | Submit Message    |                                           |                                 |                   |
+| Admin           | Create Blog Posts |                                           |                                 |                   |
+| Edit Post       | Submit Comment    | Read Comments                             | Edit Article content            |                   |
+| Blog Management |                   |                                           |                                 | Delete Blog Posts |
+| View Messages   |                   | Read messages submitted from contact page |                                 | Delete Messages   |
+| Login           |                   | Check password hash                       |                                 |                   |
+| Register        | User profile      |                                           |                                 |                   |
+
+
 ## Defensive Programming
 
 From the start, this website was built with **defensive programming** in mind — that means writing code in a way that helps prevent mistakes and protect the site from unexpected issues. To help keep the site secure, I made sure that pages requiring special access first check the user's **role** and **session**. A **user role** is a label that defines what a person can or can't do on the site — for example, an **admin** can edit or delete content, while a **regular user** can only view it. If someone tries to access a page they’re not allowed to see, the site redirects them to a different page instead.
