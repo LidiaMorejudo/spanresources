@@ -174,6 +174,13 @@ The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-p
 
 ## Error Handling
 
+As errors might occur, the following error messages were introduced to warn the user and redirect them:
+
+- 400: Bad request error
+- 404: Not found error
+- 408: Request Timeout Error
+- 500: Internal Server Error
+
 # Technologies Used
 
 # Future Implementation
