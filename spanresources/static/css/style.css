@@ -28,6 +28,57 @@ body {
   
   /* End of Navbar Styles */
 
+  /* Index Hero styles */
+
+.index-hero {
+  background-image: url('../img/mountains-bg.webp');
+  background-position: center;
+  position: relative;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.index-hero:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.index-hero h1 {
+  color: #b7ab98;
+  position: relative;
+  z-index: 2;
+  font-size: 0.875rem;
+  line-height: 82%;
+  padding-bottom: 0.2rem;
+}
+
+.index-hero p {
+  font-size: 5rem;
+  position: relative;
+  z-index: 2;
+  line-height: 82%;
+  font-weight: 700;
+  letter-spacing: -0.04rem;
+  padding-bottom: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.index-hero a {
+  position: relative;
+  z-index: 2;
+}
+
+/* End of Index Hero styles */
+
   /* Footer Styles */
 
 footer {
