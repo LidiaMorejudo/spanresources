@@ -200,6 +200,12 @@ As errors might occur, the following error messages were introduced to warn the 
 
 # Technologies Used
 
+- Languages:
+  - HTML5: HTML was used for the page structure
+  - CSS3: Used for styling the website
+  - JavaScript: was used sparingly where necassary for additional functionality
+  - Python: For handling server side logic of the website
+
 # Future Implementation
 
 # Testing
