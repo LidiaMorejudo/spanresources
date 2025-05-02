@@ -1,5 +1,43 @@
 {% extends "base.html" %} 
-
+{% set active_page = "register" %}
 {% block content %}
+<!-- Hero Section -->
+<section class="px-4 py-5 text-center small-hero bg-image">
+  <h1 class="display-5 fw-bold mb-3">
+    Register for an <span class="focus-text">account</span>
+  </h1>
+  <p>Use the form below to sign up for an account</p>
+</section>
+<div class="container">
+  <form method="POST" action="{{ url_for('register') }}">
+    <fieldset>
+      <legend class="sub-title">Register</legend>
+      
+      {{ form.hidden_tag() }}
+      
+      {{ form.username.label }}
+      {{ form.username(class="form-control mt-3 mb-3") }}
+      
+      {{ form.email.label }}
+      {{ form.email(class="form-control mt-3 mb-3") }}
+      
+      {{ form.password.label }}
+      {{ form.password(class="form-control mt-3 mb-3") }}
+      
+      {{ form.confirm_password.label }}
+      {{ form.confirm_password(class="form-control mt-3 mb-3") }}
 
+      {{ form.submit(class="btn btn-primary mt-3") }}
+
+    </fieldset>
+  </form>
+  <div class="row mt-5">
+    <div class="col-12">
+      <p class="mb-3">Already have an account?</p>
+    </div>
+    <div class="col-md-4">
+      <a class="btn btn-primary" href="{{ url_for('login') }}">Login</a>
+    </div>
+  </div>
+</div>
 {% endblock %}
