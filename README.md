@@ -169,6 +169,9 @@ The following diagrams outline the user-accessible pages based on session state 
 ## Database Schema & Structure
 
 - Guest
+
+![Guest Topology Diagram](documentation/img/guest-website-topologoy.jpg)
+
 - Logged in user
 - Administrator
 
