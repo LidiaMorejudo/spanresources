@@ -164,6 +164,8 @@ To ensure a solid foundation, I will prioritize features 1, 2, 3, 4, 5, and 12 i
 
 ## Topology Diagrams
 
+Below are diagrams illustrating the pages that are accessible for users based on their session state (guest/logged in guest/admin), any page not listed in a diagram is designed not to be accessible by a user.
+
 ## Database Schema & Structure
 
 # Skeleton
