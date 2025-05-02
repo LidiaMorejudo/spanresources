@@ -168,6 +168,10 @@ The following diagrams outline the user-accessible pages based on session state 
 
 ## Database Schema & Structure
 
+- Guest
+- Logged in user
+- Administrator
+
 # Skeleton
 
 ## Wireframes
