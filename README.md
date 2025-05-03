@@ -176,9 +176,13 @@ Unauthenticated users can only access public-facing pages such as the home page,
 
 - Logged in user
 
+Authenticated users can access all guest features, plus profile management, user dashboards, and any other user-specific content. Administrative pages remain restricted.
+
 ![Registered User Topology](documentation/img/registered-user-website-topologoy.jpg)
 
 - Administrator
+
+Admins have full access to both user and administrative areas of the application. This includes content management, user oversight, and configuration tools not available to regular users.
 
 ![Admin User Topology](documentation/img/admin-user-website-topology.jpg)
 
