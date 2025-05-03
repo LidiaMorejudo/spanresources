@@ -198,6 +198,10 @@ An ERD (Entity Relationship Diagram) is a visual representation of a database’
 
 ## Wireframes
 
+- Homepage
+
+![Homepage Wireframe](documentation/wireframes/homepage-wireframe.png)
+
 ## Colour Scheme
 
 ![Colour Palette](documentation/img/colourscheme.jpg)
