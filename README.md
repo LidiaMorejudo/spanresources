@@ -190,6 +190,8 @@ The Spanresources website operates on a single relational database comprising mu
 
 All users have permission to create and read data; however, only administrators are authorized to modify or delete existing records. The Entity Relationship Diagram (ERD) below illustrates the structure and relationships between these tables.
 
+An ERD (Entity Relationship Diagram) is a visual representation of a database’s structure, showing how tables (entities) are related to each other through keys and relationships.
+
 # Skeleton
 
 ## Wireframes
