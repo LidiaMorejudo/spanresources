@@ -170,7 +170,7 @@ The following diagrams outline the user-accessible pages based on session state 
 
 - Guest
 
-![Guest Topology Diagram](documentation/img/guest-website-topologoy.jpg)
+![Guest Topology Diagram](documentation/img/guest-website-topology.jpg)
 
 - Logged in user
 - Administrator
