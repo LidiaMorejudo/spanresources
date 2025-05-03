@@ -166,8 +166,6 @@ To ensure a solid foundation, I will prioritize features 1, 2, 3, 4, 5, and 12 i
 
 The following diagrams outline the user-accessible pages based on session state (Guest, Logged-in Guest, or Admin). Any pages not represented in these diagrams are intentionally restricted and not accessible to users in the corresponding session state.
 
-## Database Schema & Structure
-
 - Guest
 
 Unauthenticated users can only access public-facing pages such as the home page, registration and login pages, the blogs and the contact page. They have no access to user-specific or administrative features.
@@ -186,6 +184,11 @@ Admins have full access to both user and administrative areas of the application
 
 ![Admin User Topology](documentation/img/admin-user-website-topology.jpg)
 
+## Database Schema & Structure
+
+The Spanresources website operates on a single relational database comprising multiple tables. These include tables for user management, blog posts, comments, and messages.
+
+All users have permission to create and read data; however, only administrators are authorized to modify or delete existing records. The Entity Relationship Diagram (ERD) below illustrates the structure and relationships between these tables.
 
 # Skeleton
 
