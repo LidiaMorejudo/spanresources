@@ -166,19 +166,19 @@ To ensure a solid foundation, I will prioritize features 1, 2, 3, 4, 5, and 12 i
 
 The following diagrams outline the user-accessible pages based on session state (Guest, Logged-in Guest, or Admin). Any pages not represented in these diagrams are intentionally restricted and not accessible to users in the corresponding session state.
 
-- Guest
+- **Guest**
 
 Unauthenticated users can only access public-facing pages such as the home page, registration and login pages, the blogs and the contact page. They have no access to user-specific or administrative features.
 
 ![Guest Topology Diagram](documentation/img/guest-website-topology.jpg)
 
-- Logged in user
+- **Logged in user**
 
 Authenticated users can access all guest features, plus profile management, user dashboards, and any other user-specific content. Administrative pages remain restricted.
 
 ![Registered User Topology](documentation/img/registered-user-website-topologoy.jpg)
 
-- Administrator
+- **Administrator**
 
 Admins have full access to both user and administrative areas of the application. This includes content management, user oversight, and configuration tools not available to regular users.
 
