@@ -173,6 +173,9 @@ The following diagrams outline the user-accessible pages based on session state 
 ![Guest Topology Diagram](documentation/img/guest-website-topology.jpg)
 
 - Logged in user
+
+![Registered User Topology](documentation/img/registered-user-website-topologoy.jpg)
+
 - Administrator
 
 # Skeleton
