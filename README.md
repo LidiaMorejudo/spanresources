@@ -178,6 +178,9 @@ The following diagrams outline the user-accessible pages based on session state 
 
 - Administrator
 
+![Admin User Topology](documentation/img/admin-user-website-topology.jpg)
+
+
 # Skeleton
 
 ## Wireframes
