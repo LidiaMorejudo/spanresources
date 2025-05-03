@@ -192,6 +192,8 @@ All users have permission to create and read data; however, only administrators 
 
 An ERD (Entity Relationship Diagram) is a visual representation of a database’s structure, showing how tables (entities) are related to each other through keys and relationships.
 
+![ERD For Database](documentation/img/ERD.jpg)
+
 # Skeleton
 
 ## Wireframes
