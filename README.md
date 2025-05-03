@@ -170,6 +170,8 @@ The following diagrams outline the user-accessible pages based on session state 
 
 - Guest
 
+Unauthenticated users can only access public-facing pages such as the home page, registration and login pages, the blogs and the contact page. They have no access to user-specific or administrative features.
+
 ![Guest Topology Diagram](documentation/img/guest-website-topology.jpg)
 
 - Logged in user
