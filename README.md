@@ -319,13 +319,13 @@ Below is a list of the languages, frameworks, and tools used in building the Spa
 
 **Frontend**
 
-HTML5 – Used to define the structure and layout of the web pages.
+- HTML5 – Used to define the structure and layout of the web pages.
 
-CSS3 – Applied for styling and enhancing the visual presentation of the site.
+- CSS3 – Applied for styling and enhancing the visual presentation of the site.
 
-JavaScript – Used sparingly to add dynamic behavior and enhance user interaction where necessary.
+- JavaScript – Used sparingly to add dynamic behavior and enhance user interaction where necessary.
 
-Roboto (Google Fonts) – The primary typeface for headings and interactive elements, enhancing readability and focus.
+- Roboto (Google Fonts) – The primary typeface for headings and interactive elements, enhancing readability and focus.
 
 - [Bootstrap 5](https://getbootstrap.com/) – A responsive front-end framework used to streamline layout design and UI components.
 
@@ -379,6 +379,8 @@ Python – The core programming language used to handle all server-side logic.
 - Providing tools for admins to review and moderate comments submitted on blog articles.
 
 # Testing
+
+I will use the Code Institute Linter "https://pep8ci.herokuapp.com/"
 
 ## Bugs, Issues and Solutions
 
