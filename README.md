@@ -364,12 +364,19 @@ Python – The core programming language used to handle all server-side logic.
 - [Balsamiq](https://balsamiq.com/) – A wireframing tool used during the planning stage to mock up page layouts and UI structure.
 
 
-
-
-
-
-
 # Future Implementation
+
+- Planned enhancements for future versions of the application include:
+
+- Expanding user profiles to allow users to add and edit personal information such as date of birth and other optional details.
+
+- Enabling registered users to delete their own accounts through the user interface.
+
+- Supporting image uploads for users, particularly for use in articles or profiles.
+
+- Developing an admin interface to manage and moderate registered user accounts.
+
+- Providing tools for admins to review and moderate comments submitted on blog articles.
 
 # Testing
 
