@@ -313,15 +313,39 @@ As errors might occur, the following error messages were introduced to warn the 
 - 408: Request Timeout Error
 - 500: Internal Server Error
 
-# Technologies Used
+# Project Technologies
 
-- Languages:
-  - HTML5: HTML was used for the page structure
-  - CSS3: Used for styling the website
-  - JavaScript: was used sparingly where necassary for additional functionality
-  - Python: For handling server side logic of the website
+Below is a list of the languages, frameworks, and tools used in building the Spanish Resources website.
+
+Backend
+Python – The core programming language used to handle all server-side logic.
+
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/)
-  - Flask is a Python based micro web framework
+ A lightweight Python web framework used to build the application’s server and route handling.
+
+SQLAlchemy – A powerful ORM (Object Relational Mapper) used for interacting with the PostgreSQL database in a Pythonic way.
+
+Flask Migrate – A tool for managing database schema changes using Alembic and SQLAlchemy.
+
+PostgreSQL – A robust, open-source relational database used to store user data, blog content, and messages.
+
+Jinja – A templating engine used to dynamically generate HTML content from backend data.
+
+Werkzeug – A WSGI utility library that supports Flask’s request and response handling.
+
+pip – Python’s package installer used to manage project dependencies.
+
+Git – A version control system used to track code changes and collaborate during development.
+
+Heroku – A cloud platform used to deploy and host the live version of the web application.
+
+CloudConvert – Used for converting and optimizing images and media assets during content preparation.
+
+Balsamiq – A wireframing tool used during the planning stage to mock up page layouts and UI structure.
+
+
+
+
 - [Flask Migrate](https://flask-migrate.readthedocs.io/en/latest/)
   - Flask Migrate is a tool for handling SQLAlchemy database migrations using Alembic
 - [PostgreSQL](https://www.postgresql.org/)
