@@ -244,6 +244,43 @@ An overview of the key components and how they are implemented throughout the we
 
 ## Multipage Elements
 
+**Navbar**
+
+- Logo
+- Navigational Links
+
+**Footer**
+
+- Contact Information
+
+**Home Page**
+
+- Hero
+- About Section
+- What I do section with Hover effects
+- Latest Blogs with links to specific post
+- Experience
+
+**Blog**
+
+- Chronologically sorted Blog Posts
+- Pagination
+- Comments on Articles
+
+**Contact**
+
+- Form to send Admin/Owner a message
+- Form will autofill where possible using information from user session
+
+**Admin Dashboard**
+
+- Ability to create posts using a feature rich text editor
+- Ability to edit posts using a feature rich text editor
+- Ability to Delete posts
+- Ability to View Messages
+- Ability to Delete Messages
+
+
 ## CRUD Table
 
 Below is a table of CRUD functionality for each relevant page:
