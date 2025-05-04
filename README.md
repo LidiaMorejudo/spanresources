@@ -244,6 +244,8 @@ An overview of the key components and how they are implemented throughout the we
 
 ## Multipage Elements
 
+The website is structured across multiple interconnected pages, each incorporating consistent design elements to ensure a seamless user experience. Core components such as the navbar—with a site logo and intuitive navigational links—and the footer containing contact details are present throughout. The homepage offers an engaging introduction with a hero section, overview of services, interactive content blocks, and previews of recent blog posts. The blog page features a chronological list of articles with pagination and user comment functionality. A contact page allows users to send messages directly to the admin, with forms that smartly autofill user details when available. For authenticated users, an admin dashboard provides a comprehensive content management interface, including tools to create, edit, and delete blog posts, as well as manage incoming messages.
+
 **Navbar**
 
 - Logo
