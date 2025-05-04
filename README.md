@@ -232,6 +232,8 @@ The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-p
 
 ## Typography
 
+For typography, I’ve chosen to use a single imported font—Roboto from Google Fonts—for headings and interactive elements to draw user attention to key areas. System default fonts are used elsewhere to enhance performance and reduce load times.
+
 ## Imagery
 
 # Features
