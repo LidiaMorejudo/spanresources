@@ -366,7 +366,7 @@ Python – The core programming language used to handle all server-side logic.
 
 # Future Implementation
 
-- Planned enhancements for future versions of the application include:
+**Planned enhancements for future versions of the application include:**
 
 - Expanding user profiles to allow users to add and edit personal information such as date of birth and other optional details.
 
