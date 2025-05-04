@@ -212,6 +212,8 @@ The blog page displays a collection of posts, each summarizing different tools, 
 
 - Contact Page
 
+The contact page allows users to reach out with inquiries, feedback, or suggestions. It features a simple form that collects the user’s name, email, and message, ensuring seamless communication between the site's visitors and administrators. This page reinforces the site’s goal of community-building and resource-sharing by encouraging user participation.
+
 ![Contact Wireframe](documentation/wireframes/contact-wireframe.png)
 
 - Article Page
