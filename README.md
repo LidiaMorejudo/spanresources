@@ -206,6 +206,8 @@ The homepage of Spanish Resources provides visitors with an inviting overview of
 
 - Blog Page
 
+The blog page displays a collection of posts, each summarizing different tools, materials, or strategies for learning and teaching Spanish. Posts are listed chronologically or by relevance, and each includes a brief excerpt, author details, and a "Read More" link. This section encourages exploration and makes it easy for users to browse through categorized content tailored to their needs.
+
 ![Blog Wireframe](documentation/wireframes/blog-wireframe.png)
 
 - Contact Page
