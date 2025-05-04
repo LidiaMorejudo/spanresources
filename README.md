@@ -200,6 +200,8 @@ An ERD (Entity Relationship Diagram) is a visual representation of a database’
 
 - Homepage
 
+The homepage of Spanish Resources provides visitors with an inviting overview of the platform, featuring a clean, blog-style layout that highlights recent articles and featured content. It serves as the entry point for users to discover high-quality resources curated for Spanish teachers and learners. Clear navigation and user-friendly design ensure quick access to blog posts, user login, and the contact page.
+
 ![Homepage Wireframe](documentation/wireframes/homepage-wireframe.png)
 
 - Blog Page
