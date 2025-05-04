@@ -240,6 +240,8 @@ The site features high-quality stock images sourced from [Unsplash](https://unsp
 
 # Features
 
+An overview of the key components and how they are implemented throughout the website to enhance functionality and user experience.
+
 ## Multipage Elements
 
 ## CRUD Table
