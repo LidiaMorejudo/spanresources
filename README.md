@@ -320,6 +320,36 @@ As errors might occur, the following error messages were introduced to warn the 
   - CSS3: Used for styling the website
   - JavaScript: was used sparingly where necassary for additional functionality
   - Python: For handling server side logic of the website
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/)
+  - Flask is a Python based micro web framework
+- [Flask Migrate](https://flask-migrate.readthedocs.io/en/latest/)
+  - Flask Migrate is a tool for handling SQLAlchemy database migrations using Alembic
+- [PostgreSQL](https://www.postgresql.org/)
+  - A powerful and open source object-relational database system
+- [SQLAlchemy](https://www.sqlalchemy.org/)
+  - A Python SQL toolkit and ORM (Object Relational Mapper)
+- [pip](https://pypi.org/project/pip/)
+  - A package installer for Python
+- [Werkzeug](https://werkzeug.palletsprojects.com/en/3.0.x/)
+  - A WSGI web application library
+- [Jinja](https://jinja.palletsprojects.com/en/3.1.x/)
+  - A templating engine
+- [CKEditor](https://ckeditor.com/)
+  - An integratable rich text editor
+- [Balsamiq](https://balsamiq.com/)
+  - An appllication for creating wireframe templates
+- [Git](https://git-scm.com/)
+  - A version control system
+- [Bootstrap 5](https://getbootstrap.com/)
+  - A front end templating library
+- [Heroku](https://dashboard.heroku.com)
+  - A cloud platform for hostign websites and applications
+- [CloudConvert](https://cloudconvert.com/)
+  - A media conversion tool
+- [Flowbite](https://flowbite.com/icons/)
+  - An online collection of Icon SVG's
+- [ImgBB](https://imgbb.com/)
+  - Used for hosting images used on the blog articles
 
 # Future Implementation
 
