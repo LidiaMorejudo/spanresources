@@ -317,82 +317,57 @@ As errors might occur, the following error messages were introduced to warn the 
 
 Below is a list of the languages, frameworks, and tools used in building the Spanish Resources website.
 
-Frontend
+**Frontend**
+
 HTML5 – Used to define the structure and layout of the web pages.
 
 CSS3 – Applied for styling and enhancing the visual presentation of the site.
 
 JavaScript – Used sparingly to add dynamic behavior and enhance user interaction where necessary.
 
-Bootstrap 5 – A responsive front-end framework used to streamline layout design and UI components.
+- [Bootstrap 5](https://getbootstrap.com/) – A responsive front-end framework used to streamline layout design and UI components.
 
-Flowbite – Provided a collection of accessible SVG icons used throughout the UI.
+- [Flowbite](https://flowbite.com/icons/) – Provided a collection of accessible SVG icons used throughout the UI.
 
 Roboto (Google Fonts) – The primary typeface for headings and interactive elements, enhancing readability and focus.
 
-ImgBB – A third-party platform used to host and manage images for blog articles.
+- [ImgBB](https://imgbb.com/) – A third-party platform used to host and manage images for blog articles.
 
-CKEditor – An embedded rich text editor integrated for creating and formatting blog posts.
+- [CKEditor](https://ckeditor.com/) – An embedded rich text editor integrated for creating and formatting blog posts.
 
 
 
-Backend
+**Backend**
+
 Python – The core programming language used to handle all server-side logic.
 
-- [Flask](https://flask.palletsprojects.com/en/3.0.x/)
- A lightweight Python web framework used to build the application’s server and route handling.
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/) - A lightweight Python web framework used to build the application’s server and route handling.
 
-SQLAlchemy – A powerful ORM (Object Relational Mapper) used for interacting with the PostgreSQL database in a Pythonic way.
+- [SQLAlchemy](https://www.sqlalchemy.org/) – A powerful ORM (Object Relational Mapper) used for interacting with the PostgreSQL database in a Pythonic way.
 
-Flask Migrate – A tool for managing database schema changes using Alembic and SQLAlchemy.
+- [Flask Migrate](https://flask-migrate.readthedocs.io/en/latest/) – A tool for managing database schema changes using Alembic and SQLAlchemy.
 
-PostgreSQL – A robust, open-source relational database used to store user data, blog content, and messages.
+- [PostgreSQL](https://www.postgresql.org/) – A robust, open-source relational database used to store user data, blog content, and messages.
 
-Jinja – A templating engine used to dynamically generate HTML content from backend data.
+- [Jinja](https://jinja.palletsprojects.com/en/3.1.x/) – A templating engine used to dynamically generate HTML content from backend data.
 
-Werkzeug – A WSGI utility library that supports Flask’s request and response handling.
+- [Werkzeug](https://werkzeug.palletsprojects.com/en/3.0.x/) – A WSGI utility library that supports Flask’s request and response handling.
 
-pip – Python’s package installer used to manage project dependencies.
+- [pip](https://pypi.org/project/pip/) – Python’s package installer used to manage project dependencies.
 
-Git – A version control system used to track code changes and collaborate during development.
+- [Git](https://git-scm.com/) – A version control system used to track code changes and collaborate during development.
 
-Heroku – A cloud platform used to deploy and host the live version of the web application.
+- [Heroku](https://dashboard.heroku.com) – A cloud platform used to deploy and host the live version of the web application.
 
-CloudConvert – Used for converting and optimizing images and media assets during content preparation.
+- [CloudConvert](https://cloudconvert.com/) – Used for converting and optimizing images and media assets during content preparation.
 
-Balsamiq – A wireframing tool used during the planning stage to mock up page layouts and UI structure.
-
+- [Balsamiq](https://balsamiq.com/) – A wireframing tool used during the planning stage to mock up page layouts and UI structure.
 
 
 
-- [Flask Migrate](https://flask-migrate.readthedocs.io/en/latest/)
-  - Flask Migrate is a tool for handling SQLAlchemy database migrations using Alembic
-- [PostgreSQL](https://www.postgresql.org/)
-  - A powerful and open source object-relational database system
-- [SQLAlchemy](https://www.sqlalchemy.org/)
-  - A Python SQL toolkit and ORM (Object Relational Mapper)
-- [pip](https://pypi.org/project/pip/)
-  - A package installer for Python
-- [Werkzeug](https://werkzeug.palletsprojects.com/en/3.0.x/)
-  - A WSGI web application library
-- [Jinja](https://jinja.palletsprojects.com/en/3.1.x/)
-  - A templating engine
-- [CKEditor](https://ckeditor.com/)
-  - An integratable rich text editor
-- [Balsamiq](https://balsamiq.com/)
-  - An appllication for creating wireframe templates
-- [Git](https://git-scm.com/)
-  - A version control system
-- [Bootstrap 5](https://getbootstrap.com/)
-  - A front end templating library
-- [Heroku](https://dashboard.heroku.com)
-  - A cloud platform for hostign websites and applications
-- [CloudConvert](https://cloudconvert.com/)
-  - A media conversion tool
-- [Flowbite](https://flowbite.com/icons/)
-  - An online collection of Icon SVG's
-- [ImgBB](https://imgbb.com/)
-  - Used for hosting images used on the blog articles
+
+
+
 
 # Future Implementation
 
