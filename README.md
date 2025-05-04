@@ -218,6 +218,8 @@ The contact page allows users to reach out with inquiries, feedback, or suggesti
 
 - Article Page
 
+The article page presents the full content of a selected blog post. It includes a detailed write-up on the chosen resource or topic, accompanied by relevant images or links. Registered users can interact with the post through options such as editing (if they are the author), commenting, or bookmarking. The layout prioritizes readability, offering a focused space for deeper engagement with the content.
+
 ![Article Wireframe](documentation/wireframes/article-page.png)
 
 ## Colour Scheme
