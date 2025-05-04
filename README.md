@@ -224,6 +224,8 @@ The article page presents the full content of a selected blog post. It includes 
 
 ## Colour Scheme
 
+For the colour palette, I selected three primary hues—#B021BA, #BA2177, and #6421BA—to establish a cohesive and visually engaging design throughout the site.
+
 ![Colour Palette](documentation/img/colourscheme.jpg)
 
 The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-palette-generator)
