@@ -236,6 +236,8 @@ For typography, I’ve chosen to use a single imported font—Roboto from Google
 
 ## Imagery
 
+The site features high-quality stock images sourced from [Unsplash](https://unsplash.com/) to enhance visual appeal and support content contextually.
+
 # Features
 
 ## Multipage Elements
