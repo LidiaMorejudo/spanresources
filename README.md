@@ -317,6 +317,25 @@ As errors might occur, the following error messages were introduced to warn the 
 
 Below is a list of the languages, frameworks, and tools used in building the Spanish Resources website.
 
+Frontend
+HTML5 – Used to define the structure and layout of the web pages.
+
+CSS3 – Applied for styling and enhancing the visual presentation of the site.
+
+JavaScript – Used sparingly to add dynamic behavior and enhance user interaction where necessary.
+
+Bootstrap 5 – A responsive front-end framework used to streamline layout design and UI components.
+
+Flowbite – Provided a collection of accessible SVG icons used throughout the UI.
+
+Roboto (Google Fonts) – The primary typeface for headings and interactive elements, enhancing readability and focus.
+
+ImgBB – A third-party platform used to host and manage images for blog articles.
+
+CKEditor – An embedded rich text editor integrated for creating and formatting blog posts.
+
+
+
 Backend
 Python – The core programming language used to handle all server-side logic.
 
