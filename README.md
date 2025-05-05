@@ -436,8 +436,19 @@ To clone and deploy this project locally or on Heroku, follow the steps below. N
 
 - Once deployment is complete, click Open App to view the live site.
 
-
 ## Cloning the Repository
+
+Cloning a repository creates a local copy of a project from a remote source (such as GitHub), allowing you to work on it independently in your development environment.
+
+To clone this repository:
+
+1. Navigate to the [repository](https://github.com/your-username/your-repository).
+2. Click the green **Code** button located near the top right.
+3. Ensure the **HTTPS** tab is selected, then copy the URL provided.
+4. Open your terminal and navigate to the directory where you want to store the project.
+5. Run the following command, replacing `repository-url` with the URL you just copied:
+   ```bash
+   git clone repository-url
 
 ## Forking the Repository
 
