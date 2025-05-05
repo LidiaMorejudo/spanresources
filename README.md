@@ -388,6 +388,19 @@ I will use the Code Institute Linter "https://pep8ci.herokuapp.com/"
 
 ## Deployment to Heroku
 
+This project is deployed to Heroku directly from this GitHub repository. As a result, the live site is always in sync with the latest codebase, ensuring that the deployed version accurately reflects the current state of the repository.
+
+## Cloning and Deployment Instructions
+
+To clone and deploy this project locally or on Heroku, follow the steps below. Note that some steps may vary slightly depending on your development environment:
+
+To clone and deploy this project locally or on Heroku, follow the steps below. Note that some steps may vary slightly depending on your development environment:
+
+1. **Clone the Repository**  
+   Clone this repository to your local machine using Git:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+
 ## Cloning the Repository
 
 ## Forking the Repository
