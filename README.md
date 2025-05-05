@@ -466,7 +466,18 @@ To fork this repository:
 
 Your forked repository will now appear under your GitHub account and can be cloned or modified independently.
 
-## Creating a Virtual environment
+## Creating a Virtual Environment
+
+A virtual environment is an isolated workspace that allows you to manage project-specific dependencies without affecting your global Python installation. It is recommended to use a virtual environment when developing Python applications to ensure consistency and avoid conflicts between packages.
+
+To create and activate a virtual environment for this project, follow these steps:
+
+1. Open your command-line interface (e.g., Git Bash, Terminal, or Command Prompt) in the root directory of the project.
+
+2. Create the virtual environment by running:
+   ```bash
+   python -m v
+
 
 ## Create and migrate Database
 
