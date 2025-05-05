@@ -442,7 +442,7 @@ Cloning a repository creates a local copy of a project from a remote source (suc
 
 To clone this repository:
 
-1. Navigate to the [repository](https://github.com/your-username/your-repository).
+1. Navigate to the [repository](https://github.com/LidiaMorejudo/spanresources).
 2. Click the green **Code** button located near the top right.
 3. Ensure the **HTTPS** tab is selected, then copy the URL provided.
 4. Open your terminal and navigate to the directory where you want to store the project.
