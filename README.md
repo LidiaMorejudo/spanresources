@@ -406,7 +406,7 @@ To clone and deploy this project locally or on Heroku, follow the steps below. N
 
 3. **Create a Heroku App**
 
-  - Log in to [Heroku] (https://id.heroku.com/login)
+  - Log in to [Heroku](https://id.heroku.com/login)
 
 4. **Connect GitHub Repository to Heroku**
 
