@@ -394,12 +394,48 @@ This project is deployed to Heroku directly from this GitHub repository. As a re
 
 To clone and deploy this project locally or on Heroku, follow the steps below. Note that some steps may vary slightly depending on your development environment:
 
-To clone and deploy this project locally or on Heroku, follow the steps below. Note that some steps may vary slightly depending on your development environment:
-
 1. **Clone the Repository**  
    Clone this repository to your local machine using Git:
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
+2. **Install Dependencies**
+  Navigate to the project directory and install the required packages:
+
+  pip install -r requirements.txt
+
+3. **Create a Heroku App**
+
+  - Log in to [Heroku] (https://id.heroku.com/login)
+
+4. **Connect GitHub Repository to Heroku**
+
+  - In the Heroku dashboard, go to the Deploy tab.
+
+  - Select GitHub as the deployment method.
+
+  - Search for your cloned repository and click Connect.
+
+5. **Set Environment Variables**
+
+- Navigate to the Settings tab in your Heroku app.
+
+- Click Reveal Config Vars and add the required environment variables.
+
+- Use the env.py.example file as a reference for the variable names and values.
+
+6. **Enable Automatic Deploys**
+
+- In the Deploy tab, enable Automatic Deploys from the chosen branch.
+
+- This ensures the Heroku app stays updated with changes pushed to the repository.
+
+7. **Deploy the Application**
+
+- Click the Deploy Branch button to initiate the first deployment.
+
+- Once deployment is complete, click Open App to view the live site.
+
 
 ## Cloning the Repository
 
