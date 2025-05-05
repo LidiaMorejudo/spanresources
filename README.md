@@ -479,9 +479,15 @@ To create and activate a virtual environment for this project, follow these step
    python -m v
 
 
-## Create and migrate Database
+## Creating and Migrating the Database
 
+To set up the database for this project, follow the steps below. These steps assume that you have PostgreSQL and Python installed, and that you are working within your virtual environment.
 
+### 1. Create the PostgreSQL Database
+
+1. Open your command-line interface and log into PostgreSQL:
+   ```bash
+   psql
 
 # Credits
 
