@@ -452,6 +452,20 @@ To clone this repository:
 
 ## Forking the Repository
 
+Forking a repository creates a personal copy of another user's project under your own GitHub account. This allows you to freely make changes to the codebase without affecting the original project, and is commonly used when contributing to open-source projects.
+
+To fork this repository:
+
+1. Navigate to the [repository](https://github.com/LidiaMorejudo/spanresources) on GitHub.
+2. Click the **Fork** button in the top-right corner of the page.
+3. If prompted, select your GitHub account or organization under the **Owner** dropdown menu.
+4. (Optional) Modify the **Repository Name** if you wish to rename your forked repository.
+5. (Optional) Add a brief **Description** to clarify the purpose of your fork.
+6. Choose **"Copy the DEFAULT branch only"** — this is sufficient for most use cases. Leaving this unchecked will copy all branches.
+7. Click **Create Fork** to complete the process.
+
+Your forked repository will now appear under your GitHub account and can be cloned or modified independently.
+
 ## Creating a Virtual environment
 
 ## Create and migrate Database
