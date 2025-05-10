@@ -228,6 +228,71 @@ body {
 
 /* End of About Section styles */
 
+/* Skill Section styles */
+
+.skills {
+  padding: 100px 0;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid #b7ab98;
+}
+
+.skills ul li {
+  border-bottom: 1px solid #b7ab98;
+  position: relative;
+  z-index: 1;
+}
+
+.skills ul li p {
+  position: relative;
+  z-index: 3;
+  transition: color 0.1s ease-out;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.skills ul li:after {
+  content: '';
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  background-color: #eb5939;
+  z-index: 2;
+  top: 50%;
+  left: 0;
+  transition: all 0.3s ease-out;
+}
+
+.skills ul li:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.skills ul li:hover p {
+  color: #0d0d0d;
+}
+
+.skills p.small {
+  opacity: 0;
+  font-size: 2rem;
+  padding-top: 1.7rem;
+}
+
+.skills ul li:hover p.small {
+  opacity: 1;
+}
+
+.skills p.small span {
+  color: #b7ab98;
+}
+
+/* End of Skill Section styles */
+
   /* Footer Styles */
 
 footer {
