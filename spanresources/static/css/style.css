@@ -211,6 +211,23 @@ body {
 
 /* End of Index Hero styles */
 
+/* About Section styles */
+
+.about {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.about p {
+  font-size: 5rem;
+  line-height: 82%;
+  font-weight: 700;
+  padding-bottom: 0.2rem;
+  letter-spacing: -0.04rem;
+}
+
+/* End of About Section styles */
+
   /* Footer Styles */
 
 footer {
@@ -288,3 +305,4 @@ footer {
   }
   
   /* End of Footer Styles */
+
