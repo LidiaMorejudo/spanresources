@@ -410,3 +410,263 @@ footer {
   
   /* End of Footer Styles */
 
+/* Page Buttons styles */
+
+.page-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+/* End of Page Buttons styles */
+
+.messages-alert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* CKEditor Content Styles */
+
+.ck-content img {
+  margin: 1.5rem auto;
+  max-width: 100%;
+  height: auto !important;
+  display: block;
+}
+
+.ck-content p {
+  margin-bottom: 1.5rem;
+}
+
+.ck-content h2,
+.ck-content h3,
+.ck-content ul {
+  margin-bottom: 2rem;
+}
+
+.ck-content ul li {
+  margin-bottom: 1rem;
+}
+
+/* End of CKEditor COntent Styles */
+
+/* Mobile Styles */
+
+@media (max-width: 768px) {
+  .about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .index-hero p,
+  .about p {
+    font-size: 3rem;
+    line-height: 90%;
+  }
+
+  .experience p {
+    font-size: 2rem;
+    line-height: 90%;
+  }
+
+  .experience {
+    background-position: 80%;
+  }
+
+  .skills ul {
+    border-top: 1px solid #eb5939;
+  }
+
+  .skills ul li:after {
+    background-color: #b7ab98;
+  }
+
+  .skills ul li {
+    border-bottom: 1px solid #eb5939;
+  }
+
+  .skills ul li p {
+    font-size: 1rem;
+  }
+
+  .skills ul li p.small {
+    font-size: 0.875rem;
+    padding-top: 1.1rem;
+    opacity: 1;
+  }
+
+  .skills p.small span {
+    color: #eb5939;
+  }
+
+  .skills ul li:after {
+    top: 0;
+    height: 100%;
+  }
+
+  .skills ul li p {
+    color: #0d0d0d;
+  }
+
+  ul.footer-socials li {
+    padding-left: 20px;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  ul.footer-socials li a {
+    font-size: 1rem;
+  }
+
+  ul.footer-socials li::after {
+    top: 5px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #eb5939;
+  }
+}
+
+@media (max-width: 576px) {
+  .index-hero p,
+  .about p {
+    font-size: 2rem;
+  }
+}
+
+/* Styles for Blog Section of Homepage */
+
+.home-blog {
+  margin-bottom: 5rem;
+}
+
+.home-blog .card {
+  background-color: #b7ab98;
+}
+
+.home-blog .card h3 {
+  color: #eb5939;
+  color: #0d0d0d;
+}
+
+.home-blog .card-title {
+  min-height: 50px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eb5939;
+}
+
+.home-blog .card-body p {
+  padding-top: 15px;
+}
+
+.home-blog .card-body p {
+  min-height: 65px;
+  margin-bottom: 2rem;
+}
+
+.home-blog .card-body a {
+  display: block;
+  margin-top: 1rem;
+}
+
+.home-blog .card-body .card-footer {
+  padding: 0;
+  border: none;
+}
+
+.home-blog .card-footer a {
+  position: relative;
+  z-index: 2;
+}
+
+.home-blog .card-footer a:after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #eb5939;
+  transform: rotate(45deg);
+  content: '';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 15px;
+  top: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.home-blog .card-footer a:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: #eb5939;
+  transform: translate(0, -50%);
+  transition: all 0.3s ease-out;
+  z-index: -1;
+}
+
+.home-blog .card-footer a:hover {
+  background-color: transparent;
+}
+
+.home-blog .card-footer a:hover:before {
+  height: 100%;
+}
+
+.home-blog .card-footer a:hover:after {
+  opacity: 0;
+}
+
+@media (max-width: 1199px) {
+  .home-blog .card h3 {
+    min-height: 120px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home-blog .card h3 {
+    min-height: 162px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-blog .card h3 {
+    min-height: unset;
+  }
+}
+
+/* End of Styles for Blog Section of Homepage */
+
+/* Styles for Blog Page */
+
+.blog-list li {
+  border-bottom: 1px solid #eb5939;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.blog-list li:nth-last-child(1) {
+  border-bottom: none;
+}
+
+/* End of Styles for Blog Page */
+
+/* Admin styles */
+
+.delete-confirm {
+  background: #0d0d0d;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.delete-confirm p {
+  margin-bottom: 1rem;
+}
+
+.message-list {
+  position: relative;
+}
