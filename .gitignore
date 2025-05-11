@@ -1,5 +1,5 @@
 __pycache__/        # Python automatically creates this folder to store compiled files; safe to ignore.
 env.py              # Contains sensitive environment variables like API keys and database URLs; keep out of Git.
-virt/               # Local virtual environment folder; it can be recreated and doesn't belong in version control.
 migrations/         # Auto-generated database migration files; can be recreated if needed, so usually ignored.
 venv/               # Local virtual environment folder; it can be recreated and doesn't belong in version control.
+spanresources/__pycache__/

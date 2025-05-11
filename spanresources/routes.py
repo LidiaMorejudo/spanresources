@@ -11,7 +11,7 @@ from flask import (
     render_template, redirect, url_for, flash, request, session)
 from spanresources.models import User, Post, Message, Comment
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_sqlalchemy import Pagination  # noqa
+
 import re
 
 
