@@ -29,7 +29,9 @@ ckeditor = CKEditor(app)
 
 # Set up app config
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "default-secret-key")
-app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DB_URL") or "sqlite:///site.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = (
+    os.environ.get("DB_URL") or os.environ.get("DATABASE_URL") or "sqlite:///site.db"
+)
 
 # Initialize db and migration
 db = SQLAlchemy(app)
