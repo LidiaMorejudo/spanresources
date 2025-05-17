@@ -384,13 +384,17 @@ Python – The core programming language used to handle all server-side logic.
 
 Comprehensive testing documentation can be found in the [testing document](TESTING.md).
 
-I will use the Code Institute Linter "https://pep8ci.herokuapp.com/"
+
 
 ## Bugs, Issues and Solutions
 
 - **Stray End Tag (</form>) Error and Its Solution in blog-post page**
 
 This error occurs when an HTML closing tag, such as </form>, appears outside or does not properly match an opening tag, causing invalid HTML structure. In this project, the issue was caused by placing the closing </form> tag outside the conditional block that renders the form only for logged-in users. The solution was to ensure both the opening <form> and its closing </form> tags are entirely enclosed within the same {% if %} block. This way, the form is only rendered—and correctly closed—when a user is logged in, preventing stray tags and maintaining valid HTML.
+
+- **Python Linter Errors**
+
+During development, several style and syntax issues were identified, including lines that were too long, incorrect spacing, and improper import placements causing E402 errors. These have been carefully addressed by reformatting the code to comply with PEP8 guidelines, such as adding appropriate blank lines and breaking long lines. The import-related E402 errors were resolved by strategically placing # noqa: E402 comments where necessary to prevent false positives while preserving correct execution order. These fixes have improved code readability and stability, and no critical bugs or errors remain at this time.
 
 # Deployment and Local Development
 
