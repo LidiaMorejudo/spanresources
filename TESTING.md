@@ -105,8 +105,50 @@ There are no major errors shown in [Wave](https://wave.webaim.org/). However, so
 
 # User Story testing
 
-## First Time Visitor Goals
+## First-Time Visitor Goals
+
+The website is designed to ensure a smooth and intuitive experience for first-time visitors. The following goals are prioritized:
+
+**Clearly Communicate the Website’s Purpose**
+Upon loading the homepage, users are greeted by a prominent hero banner that clearly explains the site's purpose.
+
+**Enable Easy Navigation and Site Usage**
+A fixed navigation menu is pinned to the top of the browser window, ensuring it remains accessible and visible at all times.
+
+**Encourage Article Exploration**
+Featured articles are displayed directly on the homepage, just below the hero banner. Additionally, the navigation menu includes a direct link to a dedicated blog page for easy access to all articles.
+
+**Provide a Simple Registration Path**
+A link to the registration page is prominently included in the navigation menu, allowing users to create an account with ease.
 
 ## Registered/Returning Visitor Goals
 
+As a returning or registered user, the website aims to provide the following key experiences:
+
+**Easily Discover New Content**
+The homepage prominently displays the three most recent blog posts, updating automatically as new posts are added to the database.
+
+**Contact the Site Administrator**
+A dedicated contact page enables users to send messages directly to the site administrators.
+
+**Access the Latest Blog Posts**
+The blog page is organized in chronological order, ensuring the newest content is always shown first for easy browsing.
+
 ## Site Admin Goals
+
+As a site administrator, the platform provides the following key capabilities:
+
+**Add New Blog Posts**
+Blog posts can be created directly from the admin dashboard, allowing for quick and efficient content publishing.
+
+**Edit Existing Blog Posts**
+The admin panel includes functionality to modify existing posts, enabling content updates and corrections as needed.
+
+**Delete Existing Blog Posts**
+Administrators can remove outdated or unwanted posts through the admin interface.
+
+**View Messages Sent via the Contact Form**
+Messages submitted through the site's contact form are accessible in the admin area for review.
+
+**Delete Contact Form Messages**
+Admin users have the option to delete messages received via the contact form directly within the admin dashboard.
