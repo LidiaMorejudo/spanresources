@@ -4,7 +4,7 @@
 
 # Validation Results
 
-## W3C Markup Validator Results
+## W3C HTML Validator Results
 
 - [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fspanresources-b8f48e645d95.herokuapp.com%2F)
 - [Blog Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fspanresources-b8f48e645d95.herokuapp.com%2Fblog)
@@ -25,4 +25,14 @@
 5. Login Page W3C Validator Results: Similar to the Contact page, the validator reports informational messages regarding trailing slashes on void elements like <meta> tags. These trailing slashes are harmless but unnecessary in modern HTML5 and can cause issues with unquoted attribute values. The warning about the role="button" attribute on a native <button> element is also present here, highlighting that it is redundant and can be removed for cleaner code. None of these findings represent critical errors, so prioritizing other development tasks over correcting these minor code style points is advisable at this stage.
 
 6. Register Page W3C Validator Results: The HTML validation for the registration page reported several informational notes and one warning. The informational notes indicate that trailing slashes on void elements like <meta /> are unnecessary in HTML5 and can cause issues, especially when used with unquoted attribute values. Although these trailing slashes don’t impact how the page renders, it’s best practice to omit them for cleaner and more standards-compliant markup. Additionally, a warning was flagged for a button element that includes a role="button" attribute, which is redundant because the native <button> element already has that role implicitly. Removing this attribute helps improve semantic accuracy and accessibility.
+
+## W3C CSS Validator Results
+
+My CSS validated with no errors, see ![Here](documentation/img/CCSvalidator.png).
+
+![CSS Validation](https://jigsaw.w3.org/css-validator/images/vcss-blue)
+
+
+
+
 
