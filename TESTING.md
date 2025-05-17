@@ -50,18 +50,22 @@ After running the code through style and syntax checks, all previous errors have
 
 Images with Lighthouse results
 
-- ![Home - Mobile](documentation/lighthouse-results/lighthousehomemobile.png)
-- ![Home - Desktop](documentation/lighthouse-results/lighthousehomepc.png)
-- ![Blogpost - Mobile](documentation/lighthouse-results/lighthouseblogpostmobile.png)
-- ![Blogpost - Desktop](documentation/lighthouse-results/lighthouseblogpostpc.png)
-- ![Blog - Mobile](documentation/lighthouse-results/lighthouseblogmobile.png)
-- ![Blog - Desktop](documentation/lighthouse-results/lighthouseblogpc.png)
-- ![Contact - Mobile](documentation/lighthouse-results/lighthousecontactmobile.png)
-- ![Contact - Desktop](documentation/lighthouse-results/lighthousecontactpc.png)
-- ![Login - Mobile](documentation/lighthouse-results/lighthouseloginmobile.png)
-- ![Login - Desktop](documentation/lighthouse-results/lighthouseloginpc.png)
+- [Home - Mobile](documentation/lighthouse-results/lighthousehomemobile.png)
+- [Home - Desktop](documentation/lighthouse-results/lighthousehomepc.png)
+- [Blogpost - Mobile](documentation/lighthouse-results/lighthouseblogpostmobile.png)
+- [Blogpost - Desktop](documentation/lighthouse-results/lighthouseblogpostpc.png)
+- [Blog - Mobile](documentation/lighthouse-results/lighthouseblogmobile.png)
+- [Blog - Desktop](documentation/lighthouse-results/lighthouseblogpc.png)
+- [Contact - Mobile](documentation/lighthouse-results/lighthousecontactmobile.png)
+- [Contact - Desktop](documentation/lighthouse-results/lighthousecontactpc.png)
+- [Login - Mobile](documentation/lighthouse-results/lighthouseloginmobile.png)
+- [Login - Desktop](documentation/lighthouse-results/lighthouseloginpc.png)
 
 ## a11y Contrast Test Results
+
+Running a Lighthouse audit revealed that some color contrast ratios do not fully meet accessibility standards and may pose difficulties for certain users. While the site remains generally legible at present, a few background colors might benefit from slight adjustments to improve readability. Addressing these contrast issues is planned as part of future development to enhance overall accessibility.
+
+- [Colour Accessibility](documentation/lighthouse-results/colourcontrast.png)
 
 ## Wave Test Results
 
