@@ -61,12 +61,12 @@
           required>{% if submitted_comment%}{{submitted_comment}}{% endif %}</textarea>
         <button type="submit" class="btn btn-primary mt-3">Submit Comment</button>
       </fieldset>
-    </section>
+    </form>
+  </section>
     {% else %}
     <section class="container mt-5">
       <p class="comment-form-cta">Please Login to add a comment.</p>
       <a class="btn btn-primary mt-3" href="{{ url_for('login') }}">login</a>
     </section>
     {% endif %}
-  </form>
 {% endblock %}
