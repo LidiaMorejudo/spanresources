@@ -75,8 +75,6 @@ There are no major errors shown in [Wave](https://wave.webaim.org/). However, so
 
 # Responsiveness
 
-## Responsive Design Testing
-
 # Manual testing
 
 | Test                       | Goal                                                                                               | Result |
@@ -141,14 +139,27 @@ As a site administrator, the platform provides the following key capabilities:
 **Add New Blog Posts**
 Blog posts can be created directly from the admin dashboard, allowing for quick and efficient content publishing.
 
-**Edit Existing Blog Posts**
-The admin panel includes functionality to modify existing posts, enabling content updates and corrections as needed.
+![Wave results](documentation/user-stories/userstorycreatepost.png)
 
-**Delete Existing Blog Posts**
-Administrators can remove outdated or unwanted posts through the admin interface.
+**Edit Existing Blog Posts** and **Delete Existing Blog Posts**
+- The admin panel includes functionality to modify existing posts, enabling content updates and corrections as needed.
+- Administrators can remove outdated or unwanted posts through the admin interface.
 
-**View Messages Sent via the Contact Form**
-Messages submitted through the site's contact form are accessible in the admin area for review.
+![Wave results](documentation/user-stories/userstoryeditpost.png)
 
-**Delete Contact Form Messages**
-Admin users have the option to delete messages received via the contact form directly within the admin dashboard.
+**View Messages Sent via the Contact Form**  and **Delete Contact Form Messages**
+- Messages submitted through the site's contact form are accessible in the admin area for review.
+
+![Wave results](documentation/user-stories/userstorymessagereceived.png)
+
+![Wave results](documentation/user-stories/userstorymessages.png)
+
+- Admin users have the option to delete messages received via the contact form directly within the admin dashboard.
+
+![Wave results](documentation/user-stories/userstorydeletemessage.png)
+
+
+
+
+
+
