@@ -48,7 +48,18 @@ After running the code through style and syntax checks, all previous errors have
 
 ## Lighthouse Results
 
+Images with Lighthouse results
 
+- [Home - Mobile](documentation/lighthouse-results/lighthousehomemobile.png)
+- [Home - Desktop](documentation/lighthouse-results/lighthousehomepc.png)
+- [Blogpost - Mobile](documentation/lighthouse-results/lighthouseblogpostmobile.png)
+- [Blogpost - Desktop](documentation/lighthouse-results/lighthouseblogpostpc.png)
+- [Blog - Mobile](documentation/lighthouse-results/lighthouseblogmobile.png)
+- [Blog - Desktop](documentation/lighthouse-results/lighthouseblogpc.png)
+- [Contact - Mobile](documentation/lighthouse-results/lighthousecontactmobile.png)
+- [Contact - Desktop](documentation/lighthouse-results/lighthousecontactpc.png)
+- [Login - Mobile](documentation/lighthouse-results/lighthouseloginmobile.png)
+- [Login - Desktop](documentation/lighthouse-results/lighthouseloginpc.png)
 
 ## a11y Contrast Test Results
 
