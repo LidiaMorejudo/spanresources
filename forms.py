@@ -105,7 +105,7 @@ class AddArticleForm(FlaskForm):
         min=5, max=50,
         message="Title must be between 5 and 50 characters.")],
         render_kw={"placeholder": "Article Title"})
-    
+
     preview = StringField('Preview', [validators.Length(
         min=5, max=50,
         message="Preview must be between 5 and 50 characters.")],
@@ -126,7 +126,7 @@ class Edit_Articles_Form(FlaskForm):
         min=5, max=50,
         message="Title must be between 5 and 50 characters.")],
         render_kw={"placeholder": "Article Title"})
-    
+
     preview = StringField('Preview', [validators.Length(
         min=5, max=50,
         message="Preview must be between 5 and 50 characters.")],
