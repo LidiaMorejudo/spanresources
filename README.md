@@ -382,6 +382,8 @@ Python – The core programming language used to handle all server-side logic.
 
 # Testing
 
+Comprehensive testing documentation can be found in the [testing document](TESTING.md).
+
 I will use the Code Institute Linter "https://pep8ci.herokuapp.com/"
 
 ## Bugs, Issues and Solutions
