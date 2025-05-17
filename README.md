@@ -390,6 +390,50 @@ I will use the Code Institute Linter "https://pep8ci.herokuapp.com/"
 
 This project is deployed to Heroku directly from this GitHub repository. As a result, the live site is always in sync with the latest codebase, ensuring that the deployed version accurately reflects the current state of the repository.
 
+## Setting up the Admin account
+
+Setting Up an Admin Account (Post-Deployment on Heroku)
+To grant admin privileges to a user in your deployed application, follow these steps:
+
+Register a New User
+Visit your deployed website on Heroku. Navigate to the Profile section and register a new user account.
+
+💡 Make sure to securely record the login credentials you use during registration — you’ll need them later.
+
+Access the Heroku Flask Shell
+Open your development terminal (e.g., in Visual Studio Code), and run the following command to access the Flask shell on Heroku:
+
+heroku run flask shell -a your-heroku-app-name
+Promote the User to Admin
+Once inside the Flask shell, use the following Python commands to locate the newly created user by their email address and assign them admin privileges:
+
+from yourapp import db
+from yourapp.models import User
+
+user = User.query.filter_by(email="user@example.com").first()
+user.role = "admin"
+db.session.commit()
+print("User promoted to admin.")
+
+Replace yourapp with the name of your application package and "user@example.com" with the email used during registration.
+
+Exit the Shell
+Type exit() and press Enter to return to your normal terminal session.
+
+## Verifying Admin Access
+Once you’ve promoted a user to admin, you can verify that the role has been applied successfully by following these steps:
+
+Log In to the Website
+Open your deployed Heroku website in a browser. Navigate to the Profile section and log in using the credentials you used when creating the admin account.
+
+Check for Admin Access
+After logging in, return to the Profile page. If the user has been successfully promoted, you will see a new menu option labeled Admin at the bottom of the navigation.
+
+Access the Admin Dashboard
+Click on the Admin link. You should now be redirected to the admin dashboard where you can create and manage blog posts.
+
+🎉 Congratulations — you’re now ready to start blogging with admin privileges!
+
 ## Cloning and Deployment Instructions
 
 To clone and deploy this project locally or on Heroku, follow the steps below. Note that some steps may vary slightly depending on your development environment:
