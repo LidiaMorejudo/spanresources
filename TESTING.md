@@ -32,7 +32,38 @@ My CSS validated with no errors, see ![Here](documentation/img/CCSvalidator.png)
 
 ![CSS Validation](https://jigsaw.w3.org/css-validator/images/vcss-blue)
 
+## JSHint Results
+
+![JShint results](documentation/img/JShint.png)
+
+During linting, JSHint issued warnings about the use of const and let declarations, indicating these are ES6 features and require specifying the JavaScript version for proper support. This occurs because JSHint defaults to an older JavaScript version and doesn’t recognize ES6 syntax unless explicitly told to. To resolve this, the directive /* jshint esversion: 6 */ was added at the top of the JavaScript file, informing JSHint to treat the code as ES6. This change silenced the warnings and ensured the linter correctly understood and accepted modern JavaScript syntax, improving code validation without affecting functionality.
+
+## PEP8 Validation
+
+I used the Code Institute Linter ![Code Institute Linter](https://pep8ci.herokuapp.com/)
+
+![Python Results](documentation/img/cipythonlinter.png)
+
+After running the code through style and syntax checks, all previous errors have been resolved. Issues such as excessive blank lines and lines exceeding the recommended length were fixed to adhere to PEP8 standards. Additionally, the E402 error (module-level import not at top of file) was addressed by adding # noqa: E402 comments to specific import lines that must remain after initial setup code, allowing the project to run correctly without compromising style checks. Currently, no errors or warnings remain, ensuring clean and maintainable code.
+
+## Lighthouse Results
 
 
 
+## a11y Contrast Test Results
 
+## Wave Test Results
+
+# Responsiveness
+
+## Responsive Design Testing
+
+# Manual testing
+
+# User Story testing
+
+## First Time Visitor Goals
+
+## Registered/Returning Visitor Goals
+
+## Site Admin Goals
