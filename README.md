@@ -392,19 +392,24 @@ This project is deployed to Heroku directly from this GitHub repository. As a re
 
 ## Setting up the Admin account
 
-Setting Up an Admin Account (Post-Deployment on Heroku)
+**Setting Up an Admin Account (Post-Deployment on Heroku)**
+
 To grant admin privileges to a user in your deployed application, follow these steps:
 
-Register a New User
+1. **Register a New User**
+
 Visit your deployed website on Heroku. Navigate to the Profile section and register a new user account.
 
 💡 Make sure to securely record the login credentials you use during registration — you’ll need them later.
 
-Access the Heroku Flask Shell
+2. **Access the Heroku Flask Shell**
+
 Open your development terminal (e.g., in Visual Studio Code), and run the following command to access the Flask shell on Heroku:
 
 heroku run flask shell -a your-heroku-app-name
-Promote the User to Admin
+
+**Promote the User to Admin**
+
 Once inside the Flask shell, use the following Python commands to locate the newly created user by their email address and assign them admin privileges:
 
 from yourapp import db
@@ -414,6 +419,7 @@ user = User.query.filter_by(email="user@example.com").first()
 user.role = "admin"
 db.session.commit()
 print("User promoted to admin.")
+
 
 Replace yourapp with the name of your application package and "user@example.com" with the email used during registration.
 
