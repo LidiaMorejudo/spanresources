@@ -6,6 +6,8 @@ Spanish Resources was developed by me for me and for people teaching and learnin
 
 The images were sourced from here [AmiResponsive] (https://ui.dev/amiresponsive)
 
+View the website [here](https://spanresources-b8f48e645d95.herokuapp.com/index).
+
 # Project Overview
 
 Spanish Resources is a blog-style site built using **Python**, **Flask**, **SQLAlchemy**, **Bootstrap 5**, and **JavaScript**.
