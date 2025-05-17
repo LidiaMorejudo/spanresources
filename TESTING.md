@@ -69,6 +69,10 @@ Running a Lighthouse audit revealed that some color contrast ratios do not fully
 
 ## Wave Test Results
 
+There are no major errors shown in [Wave](https://wave.webaim.org/). However, some contrast warnings are shown. This is an areas that will need addressing in further development to enhance accessibility.
+
+![Wave results](documentation/wave/waveresults.png)
+
 # Responsiveness
 
 ## Responsive Design Testing
