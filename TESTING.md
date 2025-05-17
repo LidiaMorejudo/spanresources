@@ -28,7 +28,7 @@
 
 ## W3C CSS Validator Results
 
-My CSS validated with no errors, see ![Here](documentation/img/CCSvalidator.png).
+My CSS validated with no errors, see ![Here](documentation/img/CCSvalidator.png)
 
 ![CSS Validation](https://jigsaw.w3.org/css-validator/images/vcss-blue)
 
