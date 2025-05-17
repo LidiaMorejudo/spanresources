@@ -40,4 +40,3 @@ migrate = Migrate(app, db)
 # Import routes after the app is initialized to avoid circular imports
 from spanresources import routes  # noqa
 
-
