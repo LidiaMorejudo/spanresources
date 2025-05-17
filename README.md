@@ -388,6 +388,10 @@ I will use the Code Institute Linter "https://pep8ci.herokuapp.com/"
 
 ## Bugs, Issues and Solutions
 
+- **Stray End Tag (</form>) Error and Its Solution in blog-post page**
+
+This error occurs when an HTML closing tag, such as </form>, appears outside or does not properly match an opening tag, causing invalid HTML structure. In this project, the issue was caused by placing the closing </form> tag outside the conditional block that renders the form only for logged-in users. The solution was to ensure both the opening <form> and its closing </form> tags are entirely enclosed within the same {% if %} block. This way, the form is only rendered—and correctly closed—when a user is logged in, preventing stray tags and maintaining valid HTML.
+
 # Deployment and Local Development
 
 ## Deployment to Heroku
