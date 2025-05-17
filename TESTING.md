@@ -40,9 +40,9 @@ During linting, JSHint issued warnings about the use of const and let declaratio
 
 ## PEP8 Validation
 
-I used the Code Institute Linter ![Code Institute Linter](https://pep8ci.herokuapp.com/)
+I used the Code Institute Linter [Code Institute Linter](https://pep8ci.herokuapp.com/)
 
-[Python Results](documentation/img/cipythonlinter.png)
+![Python Results](documentation/img/cipythonlinter.png)
 
 After running the code through style and syntax checks, all previous errors have been resolved. Issues such as excessive blank lines and lines exceeding the recommended length were fixed to adhere to PEP8 standards. Additionally, the E402 error (module-level import not at top of file) was addressed by adding # noqa: E402 comments to specific import lines that must remain after initial setup code, allowing the project to run correctly without compromising style checks. Currently, no errors or warnings remain, ensuring clean and maintainable code.
 
@@ -50,16 +50,16 @@ After running the code through style and syntax checks, all previous errors have
 
 Images with Lighthouse results
 
-- [Home - Mobile](documentation/lighthouse-results/lighthousehomemobile.png)
-- [Home - Desktop](documentation/lighthouse-results/lighthousehomepc.png)
-- [Blogpost - Mobile](documentation/lighthouse-results/lighthouseblogpostmobile.png)
-- [Blogpost - Desktop](documentation/lighthouse-results/lighthouseblogpostpc.png)
-- [Blog - Mobile](documentation/lighthouse-results/lighthouseblogmobile.png)
-- [Blog - Desktop](documentation/lighthouse-results/lighthouseblogpc.png)
-- [Contact - Mobile](documentation/lighthouse-results/lighthousecontactmobile.png)
-- [Contact - Desktop](documentation/lighthouse-results/lighthousecontactpc.png)
-- [Login - Mobile](documentation/lighthouse-results/lighthouseloginmobile.png)
-- [Login - Desktop](documentation/lighthouse-results/lighthouseloginpc.png)
+- ![Home - Mobile](documentation/lighthouse-results/lighthousehomemobile.png)
+- ![Home - Desktop](documentation/lighthouse-results/lighthousehomepc.png)
+- ![Blogpost - Mobile](documentation/lighthouse-results/lighthouseblogpostmobile.png)
+- ![Blogpost - Desktop](documentation/lighthouse-results/lighthouseblogpostpc.png)
+- ![Blog - Mobile](documentation/lighthouse-results/lighthouseblogmobile.png)
+- ![Blog - Desktop](documentation/lighthouse-results/lighthouseblogpc.png)
+- ![Contact - Mobile](documentation/lighthouse-results/lighthousecontactmobile.png)
+- ![Contact - Desktop](documentation/lighthouse-results/lighthousecontactpc.png)
+- ![Login - Mobile](documentation/lighthouse-results/lighthouseloginmobile.png)
+- ![Login - Desktop](documentation/lighthouse-results/lighthouseloginpc.png)
 
 ## a11y Contrast Test Results
 
