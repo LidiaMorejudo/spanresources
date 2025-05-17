@@ -2,7 +2,7 @@
 
 Spanish Resources was developed by me for me and for people teaching and learning Spanish to share useful resources, opinions and thoughts about these. Users are able to register an account and send messages to me using the form on the contact page. As an admin of the site I am able to Create, Edit and Delete blog posts. The website employs a feature rich content editor for use with writing blog posts allowing the use of font sizing, italics, bold fonts, lists, externally hosted images etc
 
-                    IMAGE OF THE WEBSITE WILL GO HERE
+                    ![Preview of Website](documentation/img/preview.jpg)
 
 The images were sourced from here [AmiResponsive] (https://ui.dev/amiresponsive)
 
