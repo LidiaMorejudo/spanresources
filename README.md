@@ -410,32 +410,33 @@ heroku run flask shell -a your-heroku-app-name
 
 **Promote the User to Admin**
 
-Once inside the Flask shell, use the following Python commands to locate the newly created user by their email address and assign them admin privileges:
+Once inside the Flask shell, use the following Python commands to locate the newly created user by their email address and assign them admin privileges. Type each line individually, without the initial hyphen, and press Enter:
 
-from yourapp import db
-from yourapp.models import User
+- from yourapp import db
+- from yourapp.models import User
 
-user = User.query.filter_by(email="user@example.com").first()
-user.role = "admin"
-db.session.commit()
-print("User promoted to admin.")
-
+- user = User.query.filter_by(email="user@example.com").first()
+- user.role = "admin"
+- db.session.commit()
+- print("User promoted to admin.")
 
 Replace yourapp with the name of your application package and "user@example.com" with the email used during registration.
 
-Exit the Shell
+**Exit the Shell**
+
 Type exit() and press Enter to return to your normal terminal session.
 
 ## Verifying Admin Access
+
 Once you’ve promoted a user to admin, you can verify that the role has been applied successfully by following these steps:
 
-Log In to the Website
+1. **Log In to the Website**
 Open your deployed Heroku website in a browser. Navigate to the Profile section and log in using the credentials you used when creating the admin account.
 
-Check for Admin Access
+2. **Check for Admin Access**
 After logging in, return to the Profile page. If the user has been successfully promoted, you will see a new menu option labeled Admin at the bottom of the navigation.
 
-Access the Admin Dashboard
+3. **Access the Admin Dashboard**
 Click on the Admin link. You should now be redirected to the admin dashboard where you can create and manage blog posts.
 
 🎉 Congratulations — you’re now ready to start blogging with admin privileges!
