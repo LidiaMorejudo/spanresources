@@ -16,11 +16,11 @@ print("🔑 SECRET_KEY =", os.environ.get("SECRET_KEY"))
 print("🔗 DB_URL =", os.environ.get("DB_URL"))
 
 # Initialize Flask app
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
-from flask_ckeditor import CKEditor
-from sqlalchemy.engine.url import make_url
+from flask import Flask    # noqa: E402
+from flask_sqlalchemy import SQLAlchemy    # noqa: E402
+from flask_migrate import Migrate    # noqa: E402
+from flask_ckeditor import CKEditor    # noqa: E402
+from sqlalchemy.engine.url import make_url    # noqa: E402
 
 app = Flask(__name__)
 
@@ -30,7 +30,9 @@ ckeditor = CKEditor(app)
 # Set up app config
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "default-secret-key")
 app.config["SQLALCHEMY_DATABASE_URI"] = (
-    os.environ.get("DB_URL") or os.environ.get("DATABASE_URL") or "sqlite:///site.db"
+    os.environ.get("DB_URL")
+    or os.environ.get("DATABASE_URL")
+    or "sqlite:///site.db"
 )
 
 # Initialize db and migration
@@ -39,4 +41,3 @@ migrate = Migrate(app, db)
 
 # Import routes after the app is initialized to avoid circular imports
 from spanresources import routes  # noqa
-
