@@ -1,4 +1,3 @@
-
 from flask_wtf import FlaskForm  # noqa
 from wtforms import (
   StringField, PasswordField, EmailField, SubmitField, validators)
