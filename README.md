@@ -230,6 +230,10 @@ For the colour palette, I selected three primary hues—#B021BA, #BA2177, and #6
 
 ![Colour Palette](documentation/img/colourscheme.jpg)
 
+I also used complementary colours:
+
+![Complimentary Colours](documentation/img/complimentarycolours.jpg)
+
 The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-palette-generator)
 
 ## Typography
