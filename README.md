@@ -232,7 +232,7 @@ For the colour palette, I selected three primary hues—#B021BA, #BA2177, and #6
 
 I also used complementary colours:
 
-![Complimentary Colours](documentation/img/complimentarycolours.jpg)
+![Complimentary Colours](documentation/img/complimentarycolours.png)
 
 The images were sourced from here [Imagecolor] (https://imagetocolor.com/color-palette-generator)
 
