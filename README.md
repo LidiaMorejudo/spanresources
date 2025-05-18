@@ -384,17 +384,43 @@ Python – The core programming language used to handle all server-side logic.
 
 Comprehensive testing documentation can be found in the [testing document](TESTING.md).
 
-
-
 ## Bugs, Issues and Solutions
 
 - **Stray End Tag (</form>) Error and Its Solution in blog-post page**
 
 This error occurs when an HTML closing tag, such as </form>, appears outside or does not properly match an opening tag, causing invalid HTML structure. In this project, the issue was caused by placing the closing </form> tag outside the conditional block that renders the form only for logged-in users. The solution was to ensure both the opening <form> and its closing </form> tags are entirely enclosed within the same {% if %} block. This way, the form is only rendered—and correctly closed—when a user is logged in, preventing stray tags and maintaining valid HTML.
+I moved the closing tag to the right place.
 
 - **Python Linter Errors**
 
 During development, several style and syntax issues were identified, including lines that were too long, incorrect spacing, and improper import placements causing E402 errors. These have been carefully addressed by reformatting the code to comply with PEP8 guidelines, such as adding appropriate blank lines and breaking long lines. The import-related E402 errors were resolved by strategically placing # noqa: E402 comments where necessary to prevent false positives while preserving correct execution order. These fixes have improved code readability and stability, and no critical bugs or errors remain at this time.
+
+- **CKEditor Security Warning**
+
+The CKEditor displayed a warning regarding insecure rendering within the CKEditor textarea. On investigation, it was found that Flask-CKEditor, the dependency used, has not been updated in several months.
+
+While this is not critical since only registered admins have access to these forms, I will consider removing Flask-CKEditor in future versions and manually integrating a more up-to-date version of CKEditor if the package remains unmaintained.
+
+- **Autofill Feature - Contact Form Bug**
+
+Intent: Autofill the contact form with the logged-in user's email for better UX.
+
+**Issue Encountered:** When no user session was active, the contact page failed to render, raising: UnboundLocalError: cannot access local variable 'user_email' where it is not associated with a value.
+
+Resolution:
+**Added a conditional fallback:**
+
+if current_user.is_authenticated:
+    user_email = current_user.email
+else:
+    user_email = ''
+
+This ensures user_email is always defined when rendering the template.
+
+- **HTML Validation Fixes**
+
+Missing Heading in Contact Page section: W3C flagged a section lacking a heading (<h2>–<h6>).
+Fix: Since the section was purely structural and wrapped inside a styled div, the section tag was removed altogether to comply with semantic HTML recommendations.
 
 # Deployment and Local Development
 
