@@ -29,11 +29,19 @@ ckeditor = CKEditor(app)
 
 # Set up app config
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "default-secret-key")
-app.config["SQLALCHEMY_DATABASE_URI"] = (
-    os.environ.get("DB_URL")
-    or os.environ.get("DATABASE_URL")
-    or "sqlite:///site.db"
-)
+
+from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
+
+db_url = os.environ.get("DB_URL") or os.environ.get("DATABASE_URL")
+
+if db_url:
+    url_parts = list(urlparse(db_url))
+    query = dict(parse_qsl(url_parts[4]))
+    query['sslmode'] = 'require'
+    url_parts[4] = urlencode(query)
+    db_url = urlunparse(url_parts)
+
+app.config["SQLALCHEMY_DATABASE_URI"] = db_url or "sqlite:///site.db"
 
 # Initialize db and migration
 db = SQLAlchemy(app)
