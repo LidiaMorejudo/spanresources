@@ -1,6 +1,6 @@
 # Spanish Resources
 
-Spanish Resources was developed by me for me and for people teaching and learning Spanish to share useful resources, opinions and thoughts about these. Users are able to register an account and send messages to me using the form on the contact page. As an admin of the site I am able to Create, Edit and Delete blog posts. The website employs a feature rich content editor for use with writing blog posts allowing the use of font sizing, italics, bold fonts, lists, externally hosted images, etc.
+💃 Spanish Resources was developed by me for me and for people teaching and learning Spanish to share useful resources, opinions and thoughts about these. Users are able to register an account and send messages to me using the form on the contact page. As an admin of the site I am able to Create, Edit and Delete blog posts. The website employs a feature rich content editor for use with writing blog posts allowing the use of font sizing, italics, bold fonts, lists, externally hosted images, etc.
 
 ![Preview of Website](documentation/img/spanresourcespreview.png)
 
@@ -190,7 +190,7 @@ Admins have full access to both user and administrative areas of the application
 
 The Spanresources website operates on a single relational database comprising multiple tables. These include tables for user management, blog posts, comments, and messages.
 
-All users have permission to create and read data; however, only administrators are authorized to modify or delete existing records. The Entity Relationship Diagram (ERD) below illustrates the structure and relationships between these tables.
+All users have permission to create and read data; however, **only administrators are authorized to modify or delete existing records**. The Entity Relationship Diagram (ERD) below illustrates the structure and relationships between these tables.
 
 An ERD (Entity Relationship Diagram) is a visual representation of a database’s structure, showing how tables (entities) are related to each other through keys and relationships.
 
