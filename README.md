@@ -426,6 +426,14 @@ This ensures user_email is always defined when rendering the template.
 Missing Heading in Contact Page section: W3C flagged a section lacking a heading (<h2>–<h6>).
 Fix: Since the section was purely structural and wrapped inside a styled div, the section tag was removed altogether to comply with semantic HTML recommendations.
 
+- **Error 500**
+
+Once deployed, the site worked well overall, but occasionally a 500 error would occur. To investigate, I logged into the Heroku CLI from my VS Code terminal and checked the logs immediately after an error by running: heroku logs --tail --app your-app-name.
+
+Heroku provided a detailed error log, which I analyzed with the help of an AI tool to pinpoint the root cause. It turned out the error was due to a lost connection between the database and Heroku, a common issue when using SSL.
+
+To fix this, I added a few lines of code in the __init__.py file to ensure the database connection remained stable and prevent the 500 errors from recurring.
+
 # Deployment and Local Development
 
 ## Deployment to Heroku
