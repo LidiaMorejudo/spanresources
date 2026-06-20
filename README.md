@@ -69,7 +69,7 @@ The choice to make this project was influenced by my desire to develop a resourc
 - Website needs to include full CRUD functionality
 - Guests will be able to view and navigate public sections of the website
 - Guests will be able to send a message to the admins using the form on the contact page
-- Registered users will be able to add comments to articles
+- Registered users will be able to add, edit and delete their own comments to articles
 - Admins will be able to create, edit and delete blog posts
 - Admins will be able to read and delete messages sent by the contact form
 - Present information in an easy to read manner
