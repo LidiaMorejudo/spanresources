@@ -8,7 +8,7 @@ from forms import (
   AddArticleForm,
   Edit_Articles_Form)
 from flask import (
-    render_template, redirect, url_for, flash, request, session)
+    render_template, redirect, url_for, flash, request, session, abort)
 from spanresources.models import User, Post, Message, Comment
 from werkzeug.security import generate_password_hash, check_password_hash
 
@@ -89,7 +89,7 @@ def blog_post(slug):
         user_id = session.get('user_id')
 
         # Validate the comment
-        if len(submitted_comment) < 5 or len(submitted_comment) > 200:
+        if not submitted_comment or len(submitted_comment) < 5 or len(submitted_comment) > 200:
             flash(
                 "Comment must be greater than 5 characters"
                 " and less than 200 characters.")
@@ -124,6 +124,62 @@ def blog_post(slug):
         submitted_comment=request.args.get('submitted_comment')
     )
 
+@app.route('/comment/<int:id>/edit', methods=['GET', 'POST'])
+@login_required
+def edit_comment(id):
+    """Allow a logged-in user to edit their own comment."""
+
+    comment = Comment.query.filter_by(id=id).first_or_404()
+    post = Post.query.filter_by(id=comment.post_id).first_or_404()
+
+    # Only the comment owner can edit the comment
+    if comment.user_id != session['user_id']:
+        abort(403)
+
+    if request.method == 'POST':
+        updated_comment = request.form.get('comment')
+
+        if not updated_comment:
+            flash("Comment cannot be empty.")
+            return redirect(url_for('edit_comment', id=id))
+
+        if len(updated_comment) < 5 or len(updated_comment) > 200:
+            flash(
+                "Comment must be greater than 5 characters "
+                "and less than 200 characters."
+            )
+            return redirect(url_for('edit_comment', id=id))
+
+        comment.content = updated_comment
+        db.session.commit()
+
+        flash("Comment updated successfully!")
+        return redirect(url_for('blog_post', slug=post.slug))
+
+    return render_template(
+        'edit-comment.html',
+        title="Edit Comment",
+        comment=comment,
+        post=post
+    )
+
+@app.route('/comment/<int:id>/delete', methods=['POST'])
+@login_required
+def delete_comment(id):
+    """Allow a logged-in user to delete their own comment."""
+
+    comment = Comment.query.filter_by(id=id).first_or_404()
+    post = Post.query.filter_by(id=comment.post_id).first_or_404()
+
+    # Only the comment owner can delete the comment
+    if comment.user_id != session['user_id']:
+        abort(403)
+
+    db.session.delete(comment)
+    db.session.commit()
+
+    flash("Comment deleted successfully!")
+    return redirect(url_for('blog_post', slug=post.slug))
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
