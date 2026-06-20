@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Edit Comment</h1>
+
+<form method="POST">
+    <textarea name="comment" rows="5" maxlength="200" required>{{ comment.content }}</textarea>
+
+    <br>
+
+    <button type="submit">Update Comment</button>
+
+    <a href="{{ url_for('blog_post', slug=post.slug) }}">
+        Cancel
+    </a>
+</form>
+
+{% endblock %}
